@@ -34,11 +34,13 @@ use App\Controllers\AsistenController;
 
 $routes->get('/', 'Home::index');
 $routes->get('/asisten', 'AsistenController::index');
+$routes->get('/asisten/logout', 'AsistenController::logout');
 $routes->match(['get', 'post'], 'asisten/simpan', [AsistenController::class, 'simpan']);
 $routes->match(['get', 'post'], 'asisten/update', [AsistenController::class, 'edit']);
 $routes->match(['get', 'post'], 'asisten/hapus', [AsistenController::class, 'delete']);
 $routes->match(['get', 'post'], 'asisten/search', [AsistenController::class, 'search']);
 $routes->match(['get', 'post'], 'asisten/login', [AsistenController::class, 'login']);
+
 
 /*
  * --------------------------------------------------------------------

@@ -41,6 +41,7 @@
               <a href="/asisten/update" class="btn btn-primary">Update</a>
               <a href="/asisten/hapus" class="btn btn-danger">Delete</a>
               <a href="/asisten/search" class="btn btn-primary">Cari</a>
+              <a href="/asisten/logout" class="btn btn-primary">Log Out</a>
         </div>
         
     </article>
