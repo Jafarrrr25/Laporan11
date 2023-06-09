@@ -29,10 +29,10 @@
                        foreach ($query->getResult('array') as $row) {
                             if (isset($row)) {?>
                                 <tr>
-                                <td><?php echo $row['nim']; ?></td>
-                                <td><?php echo $row['nama']; ?></td>
-                                <td><?php echo $row['praktikum']; ?></td>
-                                <td><?php echo $row['ipk']; ?></td>
+                                <td><?php echo $row['nim']; ?></td> <!-- //Bisa diganti dengan NIM-->
+                                <td><?php echo $row['nama']; ?></td> <!-- //Bisa diganti dengan NAMA-->
+                                <td><?php echo $row['praktikum']; ?></td> <!-- //Bisa diganti dengan PRAKTIKUM-->
+                                <td><?php echo $row['ipk']; ?></td> <!-- //Bisa diganti dengan IPK-->
                                 </tr>
                     <?php  } }?>
                 </tbody>
